@@ -1,0 +1,9 @@
+ /* cienty-image-drag.js */
+ /* ------------------------------------------- */
+ /* Desarrollado por: José Argüello */
+ /* GitHub: https://github.com/josecienty */
+ /* Licencia: MIT  */
+ /* Versión: 1.0.0 */
+ /* Descripción: Drag & Drop de imágenes para web, sin frameworks, personalizable y listo para CDN */
+ /* ------------------------------------------- */
+[fcx-drag=area]{width:100%;min-height:200px;height:calc(100% - 87px - 1.429rem - 1.429rem);border:1px dashed #666;border-radius:15px;display:flex;justify-content:center;align-items:center;flex-direction:column;cursor:pointer;transition:background .2s;position:relative}[fcx-drag=area].hover{background:#f0f0f0}[fcx-drag=area] img{max-width:100%;max-height:100%;display:block}[fcx-drag=area] span{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);color:#666;text-align:center}
