@@ -1,3 +1,12 @@
+// cienty-image-drag.js
+// -------------------------------------------
+// Desarrollado por: José Argüello
+// GitHub: https://github.com/josecienty
+// Licencia: MIT 
+// Versión: 1.0.0
+// Descripción: Drag & Drop de imágenes para web, sin frameworks, personalizable y listo para CDN
+// -------------------------------------------
+
 (function () {
 
     const makeDragArea = (config) => {
