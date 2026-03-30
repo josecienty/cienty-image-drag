@@ -15,7 +15,15 @@
 Puedes incluir el script directamente en tu proyecto:
 
 ```html
-<script src="cienty-image-drag.js"></script>
+<head>
+    <!-- CDN de estilos -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/josecienty/cienty-image-drag@1.0.0/build/cienty-image-drag.min.css">
+</head>
+<body>
+    <!-- Resto del código -->
+
+    <script src="https://cdn.jsdelivr.net/gh/josecienty/cienty-image-drag@1.0.0/build/cienty-image-drag.min.js"></script>
+</body>
 ```
 
 Luego puedes inicializar un área de Drag & Drop con:
